@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Masuk</title>
+</head>
+<body>
+	<center>
+		<h1>Selamat Datang</h1>
+		<h2>Silahkan Masuk</h2>
+		<div>
+			<table>
+				<tr>
+					<td>Nama Pengguna</td><br>
+					<td>:</td><br>
+					<td><input type="text" name=""></td>
+				</tr>
+				<tr>
+					<td>Password</td><br>
+					<td>:</td><br>
+					<td><input type="Password" name=""></td>
+				</tr>
+				<tr>
+					</tr>
+				</table>
+				<br><br>
+			<input value="Masuk" style="background-color: 4985D; height: 25px; width: 400px;"type="submit">
+			</br>
+			</div>
+		</center>
+	</body>
+	</html> 

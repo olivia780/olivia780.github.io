@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Daftar</title>
+</head>
+
+<body>
+	<div>
+		<center>
+			<h1>PENDAFTARAN</h1>
+			<table>
+				<tr>
+					<td>Nama Pengguna</td>
+					<td>:</td>
+					<td><input type="text" name=""></td>
+				</tr>
+					<tr>
+						<td>Alamat</td>
+						<td>:</td>
+						<td><textarea></textarea></td>
+					</tr>
+					<tr>
+						<td>Tanggal Lahir</td>
+						<td>:</td>
+						<td><input type="Date" name=""></td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td>:</td>
+						<td><input type="Email" name=""></td>
+					</tr>
+					<tr>
+						<td>No HP</td>
+						<td>:</td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td>Password</td>
+						<td>:</td>
+						<td><input type="Password" name=""></td>
+					</tr>
+					<tr>
+					<td>Jenis Kelamin</td>
+					<td>:</td>
+					<td><input type="radio" name="">Laki-Laki
+						<input type="radio" name="">Perempuan</td>
+					</tr>
+					</table>
+					<br><br>
+			<input value="Register" style="background-color: 4985D; height: 25px; width: 550px;"type="submit">
+			</br>
+				</center>
+
+			</div>
+			
+		</body>
+		</html> 
