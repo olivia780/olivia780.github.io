@@ -1,0 +1,176 @@
+
+	html,body{
+		padding: 0;
+		margin: 0;
+		font-family: sans-serif;
+	}
+
+.main-content{
+	margin-right: 6%;
+		margin-left: 6%;
+}
+ 
+	.menu-drop{
+		background-color: #3141ff;
+	}
+ 
+	.menu-drop ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		margin-left: 5%;
+	}
+ 
+	.menu-drop > ul > li {
+		float: left;
+	}
+
+	.toRight{
+		float: right;
+		margin-right: 5%;
+	}
+
+	.toRight li{
+		float: left;
+	}
+ 
+	
+	.menu-drop li a {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+ 
+	.menu-drop li a:hover{
+		background-color: #2525ff;
+	}
+ 
+	li.dropdown {
+		display: inline-block;
+	}
+ 
+	.dropdown:hover .isi-dropdown {
+		display: block;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #fff !important;
+	}
+ 
+	.isi-dropdown {
+		position: absolute;
+		display: none;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		background-color: #f9f9f9;
+	}
+ 
+	.isi-dropdown a {
+		color: #3c3c3c !important;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #232323 !important;
+		background: #f3f3f3 !important;
+	}
+
+	.judul{
+		font-size: 3vw;
+	}
+
+	.small_text{
+		color: grey;
+		font-size: 2vw;
+	}
+
+.color-line{
+	color: grey;
+}
+
+.content-left{
+	width: 20%;
+	float: left;
+	margin-right: 15px;
+	/*padding: 5px;*/
+}
+
+.content-right{
+	width: 75%;
+	float: left;
+	overflow: hidden;
+}
+
+table{
+	width: 90%;
+	padding: 5px;
+	border-collapse: collapse;
+	border: 1px solid black;
+	border-radius: 20%;
+}
+
+table td, table th{
+	padding: 5px;
+	border: 1px solid black;
+}
+
+table td:last-child{
+	text-align: center;
+}
+
+table a{
+	text-decoration: none;
+
+}
+table tr{
+	width: 100%;
+}
+
+.img_wrapper{
+	width: 100%;
+	height: auto;
+}
+
+.img_wrapper img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.item{
+	width: 30%;
+	float: left;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+.item_img{
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
+.item_img img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.ket {
+	font-size: 0.7vw;
+	color: grey;
+}
+.datadiri {
+	border : none;
+	text-align: left;
+	padding: 10%;
+}
+
+.datadiri td{
+	border:none;
+}
+
+.datadiri td:last-child{
+	text-align: left;
+}
