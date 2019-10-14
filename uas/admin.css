@@ -3,6 +3,31 @@ input, select {
 	width: 90%;
 	height: auto;
 }
+.dftr input, textarea {
+	width: 200%;
+	height: 20px;
+	border-radius: 2px;
+	color: black;
+	font-weight: bold;
+}
+.daftar {
+	background-color: #2F70A6;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	color: white;
+	font-family: calibri;
+	font-weight: bold;
+}
+.batal {
+	background-color: red;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	color: white;
+	font-family: calibri;
+	font-weight: bold;
+}
 
 body {
 	font-size: 12px;
