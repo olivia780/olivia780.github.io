@@ -1,0 +1,41 @@
+body {
+  background: #3498db;
+  font-family: sans-serif;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+ 
+h2 {
+  color: #fff;
+}
+ 
+.login {
+  padding: 2%;
+  margin: 1% auto;
+  width: 40%;
+  background: #fff;
+  border-radius: 3px;
+}
+ 
+label {
+  font-size: 10pt;
+  color: #555;
+}
+ 
+input[type="email"],
+input[type="password"]{
+  padding: 2%;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 1% 0%;
+}
+ 
+.tombol {
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+  width: 100%;
+}
