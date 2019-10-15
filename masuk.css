@@ -4,11 +4,19 @@ body {
   padding-top: 10%;
   padding-bottom: 10%;
 }
- 
+
 h2 {
   color: #fff;
 }
+.daftar {
+ padding: 2%;
+ margin: 1% auto;
+ width: 40%;
+ background: #fff;
+ border-radius: 3px;
  
+}
+
 .login {
   padding: 2%;
   margin: 1% auto;
@@ -16,14 +24,18 @@ h2 {
   background: #fff;
   border-radius: 3px;
 }
- 
+
 label {
   font-size: 10pt;
   color: #555;
 }
- 
+
 input[type="email"],
-input[type="password"]{
+input[type="password"],
+input[type="text"],
+input[type="date"],
+textarea
+{
   padding: 2%;
   width: 95%;
   background: #efefef;
@@ -31,7 +43,7 @@ input[type="password"]{
   font-size: 10pt;
   margin: 1% 0%;
 }
- 
+
 .tombol {
   background: #3498db;
   color: #fff;

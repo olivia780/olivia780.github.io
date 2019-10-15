@@ -1,60 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Daftar</title>
+	<title>masuk</title>
+	<link rel="stylesheet" type="text/css" href="masuk.css">
 </head>
-
-<body>
-	<div>
-		<center>
-			<h1>PENDAFTARAN</h1>
-			<table>
-				<tr>
-					<td>Nama Pengguna</td>
-					<td>:</td>
-					<td><input type="text" name=""></td>
-				</tr>
-				<tr>
-					<td>Jenis Kelamin</td>
-					<td>:</td>
-					<td><input type="radio" name="">Laki-Laki
-						<input type="radio" name="">Perempuan</td>
-					</tr>
-					<tr>
-						<td>Alamat</td>
-						<td>:</td>
-						<td><textarea></textarea></td>
-					</tr>
-					<tr>
-						<td>Tanggal Lahir</td>
-						<td>:</td>
-						<td><input type="Date" name=""></td>
-					</tr>
-					<tr>
-						<td>Email</td>
-						<td>:</td>
-						<td><input type="Email" name=""></td>
-					</tr>
-					<tr>
-						<td>No HP</td>
-						<td>:</td>
-						<td><input type="text" name=""></td>
-					</tr>
-					<tr>
-						<td>Password</td>
-						<td>:</td>
-						<td><input type="Password" name=""></td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td>&nbsp;</td>
-						<td><input type="submit" name="submit" value="Daftar"/>
-							<input type="reset" name="reset" value="Batal"/></td>
-						</tr>
-					</table>
-
-				</center>
-
+<body style="padding-top: 2%">
+	<center><h2>DAFTAR</h2></center>
+	<div class="daftar">
+		<form action="index.html" method="POST" onSubmit="validasi()">
+			<div>
+				<label>Nama:</label>
+				<input type="text" name="nama" id="nama" />
 			</div>
-		</body>
-		</html>
+			<div>
+				<label>Email:</label>
+				<input type="email" name="email" id="email" />
+			</div>
+			<div>
+				<label>Password:</label>
+				<input type="Password" name="Password" id="Password" />
+			</div>
+			<div>
+				<label>No HP:</label>
+				<input type="text" name="hp" id="hp" />
+			</div>
+			<div>
+				<label>Tanggal Lahir:</label>
+				<input type="date" name="tanggal_lahir" id="tanggal_lahir" />
+			</div>
+			<div>
+				<label>Alamat:</label>
+				<textarea></textarea>
+			</div>
+			<div>
+				<label>Kota:</label>
+				<input type="text" name="kota" id="kota" />
+			</div>
+			<div>
+				<label>Provinsi:</label>
+				<input type="text" name="provinsi" id="provinsi" />
+			</div>
+			<div>
+				<label>Jenis Kelamin:</label>
+				<input type="radio" name="jk" id="jk" />Laki-laki
+				<input type="radio" name="jk" id="jk" />Perempuan
+			</div>
+			<br>
+			<div>
+				<input type="submit" value="Masuk" class="tombol">
+			</div>
+		</form>
+	</div>
+</body>
+<script type="text/javascript">
+	function validasi() {
+		var Password = document.getElementById("Password").value;
+		var email = document.getElementById("email").value;
+		if (Password != "" && email!="") {
+			alert('Anda harus mengisi data dengan lengkap !');
+		}else if(Password != "12345678" && email!="rizky@gmail.com"){
+			alert('Password atau email salah');
+		}
+		else{
+			return true;
+		}
+	}
+</script>
+
+</html>

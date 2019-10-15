@@ -7,7 +7,7 @@
 <body>
 	<center><h2>MASUK</h2></center>
 	<div class="login">
-		<form action="#" method="POST" onSubmit="validasi()">
+		<form action="Beranda.html" method="POST">
 			<div>
 				<label>Email:</label>
 				<input type="email" name="email" id="email" />
@@ -22,16 +22,29 @@
 		</form>
 	</div>
 </body>
+<script src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
-	function validasi() {
-		var Password = document.getElementById("Password").value;
-		var email = document.getElementById("email").value;
-		if (Password != "" && email!="") {
-			return true;
-		}else{
+	// function validasi() {
+	// 	var Password = document.getElementById("Password").value;
+	// 	var email = document.getElementById("email").value;
+		
+	// }
+
+	$(".tombol").click(function (event) {
+		event.preventDefault();
+		var Password = $("input[name='Password']").val();
+		var email = $("input[name='email']").val();
+
+		if (Password == "" && email =="") {
 			alert('Anda harus mengisi data dengan lengkap !');
 		}
-	}
+		else if(Password != "12345678" && email!="rizky@gmail.com"){
+			alert('Password atau email salah');
+		}
+		else{
+			$(this).off('click').trigger('click');
+		}
+	})
 </script>
 
 </html>
